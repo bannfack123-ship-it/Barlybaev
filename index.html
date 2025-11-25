@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Template Grey 2.0</title>
+
+<style>
+body {
+    margin: 0;
+    background: #7D8085;
+    font-family: Arial, sans-serif;
+}
+
+/* Верхняя полоска */
+.header {
+    height: 40px;
+    background: url("top.jpg") no-repeat center;
+}
+
+/* Контейнер */
+.wrapper {
+    width: 900px;
+    margin: 0 auto;
+    background: url("bg.jpg") repeat;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+/* Правая колонка */
+.sidebar {
+    width: 200px;
+    float: right;
+    background: #F0F0F0;
+    padding: 15px;
+    border-left: 2px solid #F29900;
+}
+
+.sidebar h2 {
+    color: #F29900;
+    margin: 10px 0 5px 0;
+}
+
+.sidebar ul {
+    list-style: square;
+    padding-left: 18px;
+}
+
+.sidebar li {
+    color: #F29900;
+}
+
+.sidebar a {
+    color: #555;
+    text-decoration: none;
+}
+.sidebar a:hover {
+    color: #F29900;
+}
+
+/* Центральный контент */
+.content {
+    margin-right: 240px;
+    padding: 20px;
+    background: #222;
+    color: #FFF;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+
+.content h2 a {
+    color: #F29900;
+    text-decoration: none;
+}
+.content h2 a:hover {
+    color: #FFF;
+}
+
+.content a {
+    color: #F29900;
+}
+.content a:hover {
+    color: #FFF;
+}
+
+.date {
+    border-top: 1px solid #555;
+    margin-top: 10px;
+    padding-top: 5px;
+    color: #ccc;
+    font-size: 0.9em;
+}
+
+/* Нижняя полоса */
+.footer {
+    height: 37px;
+    background: url("bot.jpg") no-repeat center;
+    clear: both;
+}
+
+/* Ссылки */
+a {
+    text-decoration: none;
+}
+</style>
+</head>
+
+<body>
+
+<div class="header"></div>
+
+<div class="wrapper">
+
+    <!-- Правая колонка -->
+    <div class="sidebar">
+        <h2>GREY</h2>
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ARTICLES</a></li>
+            <li><a href="#">GALLERY</a></li>
+            <li><a href="#">SUPPORT</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+
+        <h2>Top articles</h2>
+        <ul>
+            <li><a href="#">NoHeader Template</a></li>
+            <li><a href="#">Adipiscing elit</a></li>
+            <li><a href="#">Lorem ipsum dolor</a></li>
+        </ul>
+
+        <hr>
+
+        <h2>Links</h2>
+        <ul>
+            <li><a href="#">any.com</a></li>
+            <li><a href="#">htmlbook.ru/samcss</a></li>
+        </ul>
+
+    </div>
+
+    <!-- Центральный контент -->
+    <div class="content">
+
+        <h2><a href="#">Try sNews 1.4!</a></h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Integer euismod
+            ante non diam. Sed eleifend odio sed quam. <a href="#">Turpis at tincidunt</a> porttitor.
+        </p>
+
+        <p class="date">Posted by Avenir • 21.02 • Comments (2)</p>
+
+        <h2><a href="#">Heading Item</a></h2>
+        <p>
+            Curabitur porttitor ante non est. Sed suscipit nisi sit amet pharetra
+            malesuada, sem velit laoreet sem, vitae iaculis diam neque consequat est.
+        </p>
+
+        <p class="date">Posted by James • 18.01 • Comments (7)</p>
+
+    </div>
+
+    <div class="footer"></div>
+</div>
+
+</body>
+</html>
+
